@@ -322,21 +322,30 @@ POSTS & CONTENT STYLES
 			ul, ol, table, dl {}
 
 			ul, ol {
+				list-style: none;
+				margin: 0 0 24px 20px;
 
 				li {}
 
 			}
 
 			ul {
+				list-style: disc;
 
 				li {}
 
 			}
 
 			ol {
+				list-style: decimal;
 
 				li {}
 
+			}
+
+			li > ul,
+			li > ol {
+				margin: 0 0 0 20px;
 			}
 
 			table {
